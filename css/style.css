@@ -239,6 +239,10 @@ a, p, h3, ul {
   line-height: 21px;
 }
 
+.service {
+  margin-bottom: 150px;
+}
+
 .service-title {
   margin: 0 0 65px 0;
   font-weight: 500;
@@ -424,6 +428,9 @@ a, p, h3, ul {
   padding: 22px 48px;
   background: linear-gradient(87.87deg, #FF810D -16.02%, #E8B51C 96.27%);
   border-radius: 16px;
+  font-weight: 900;
+  font-size: 16px;
+  color: #FDFDFD;
 }
 
 .link-block_image {
@@ -431,5 +438,122 @@ a, p, h3, ul {
   right: 165px;
   top: 20px;
   z-index: -10;
+}
+
+.pricelist {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.pricelist-image1 {
+  position: absolute;
+  left: 48px;
+  bottom: -200px;
+  z-index: -5;
+}
+
+.pricelist-image2 {
+  position: absolute;
+  right: 12px;
+  bottom: -218px;
+  z-index: -5;
+}
+
+.pricelist-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  padding: 40px 30px;
+  font-size: 18px;
+  line-height: 21px;
+  background: #FFFCF5;
+}
+
+.pricelist-title {
+  font-weight: 500;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.tableBox {
+  border: 2px solid #10AEAE;
+  border-radius: 28px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #FFFCF5;
+}
+
+.left-col {
+  width: 50%;
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.right-col {
+  width: 50%;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+.left-text {
+  font-size: 18px;
+  line-height: 21px;
+  float: left;
+}
+
+.right-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #015965;
+  float: right;
+}
+
+.even {
+  background: -webkit-gradient(linear, left top, left bottom, from(#EFF7F1), to(#E8F5EE));
+  background: linear-gradient(180deg, #EFF7F1 0%, #E8F5EE 100%);
+  border-radius: 24px;
+}
+
+.slider-title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 155.69%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.slider-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider-buttons_item {
+  font-size: 18px;
+  line-height: 155.69%;
+  background: #FFFCF5;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #10AEAE;
+  font-weight: bold;
+}
+
+.image-slider {
+  height: 700px;
+}
+
+.swiper-slide {
+  height: calc((100% - 10px) /2);
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
