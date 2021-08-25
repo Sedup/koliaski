@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
   loop: false,
   autoHeight: false,
@@ -19,4 +19,20 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 
+});
+
+// tabs
+$(document).ready(function () {
+  var sliderButtons = $(".sliders-buttons_item");
+  var slider = $(".slider");
+  console.log("click");
+
+  sliderButtons.on("click", function (event) {
+    swiper.destroy(true, true);
+    var activeSlider = $(this).attr("data-target");
+    sliderButtons.removeClass("activeButton");
+    slider.removeClass("slider-active");
+    $(activeSlider).addClass("slider-active");
+    $(this).addClass("activeButton");
+  });
 });

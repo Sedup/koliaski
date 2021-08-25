@@ -517,7 +517,7 @@ a, p, h3, ul {
   border-radius: 24px;
 }
 
-.slider-title {
+.sliders-title {
   font-weight: 500;
   font-size: 42px;
   line-height: 155.69%;
@@ -525,7 +525,7 @@ a, p, h3, ul {
   margin-bottom: 45px;
 }
 
-.slider-buttons {
+.sliders-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,7 +535,7 @@ a, p, h3, ul {
           justify-content: center;
 }
 
-.slider-buttons_item {
+.sliders-buttons_item {
   font-size: 18px;
   line-height: 155.69%;
   background: #FFFCF5;
@@ -543,7 +543,7 @@ a, p, h3, ul {
   cursor: pointer;
 }
 
-.active {
+.activeButton {
   color: #10AEAE;
   font-weight: bold;
 }
@@ -555,5 +555,13 @@ a, p, h3, ul {
 .swiper-slide {
   height: calc((100% - 10px) /2);
   overflow: hidden;
+}
+
+.slider {
+  display: none;
+}
+
+.slider-active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
