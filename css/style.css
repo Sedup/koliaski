@@ -548,20 +548,15 @@ a, p, h3, ul {
   font-weight: bold;
 }
 
-.image-slider {
-  height: 700px;
-}
-
-.swiper-slide {
-  height: calc((100% - 10px) /2);
-  overflow: hidden;
-}
-
 .slider {
   display: none;
 }
 
 .slider-active {
   display: block;
+}
+
+.slider-image {
+  border-radius: 24px;
 }
 /*# sourceMappingURL=style.css.map */
