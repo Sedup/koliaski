@@ -1,4 +1,5 @@
 .contacts
+  margin-bottom: 150px
   &-title
     font-weight: 500
     font-size: 42px
@@ -6,8 +7,39 @@
     text-align: center
     margin-top: 100px
     margin-bottom: 45px
+  &-block
+    display: flex
+    align-items: center
+    justify-content: space-between
   &-full
-    border: 1px solid rgba(16, 174, 174, 0,65)
+    padding: 45px 27px 45px 45px
+    border: 2px solid #10AEAE
+    border-radius: 24px
+    min-width: 400px
+    min-height: 480px
+    &_adress
+      display: flex
+      margin-bottom: 32px
+      &--text
+        font-size: 18px;
+        line-height: 155.69%;
+      &--link
+        transition: 0.1s linear
+      &--link:hover
+        color: #10AEAE
+        font-weight: bold
+    &_time
+      display: flex
+      margin-bottom: 32px
+    &_mail
+      display: flex
+      flex-direction: flex-end
+      margin-bottom: 32px
+    &_phones
+      &--item
+        margin-bottom: 20px
+  &-icon
+    margin-right: 12px
 .map
   border-radius: 25px
   border: none

@@ -52,10 +52,10 @@
       </div>
 
       <div class="header-links">
-        <a href="#" class="header-links_item">Наши услуги</a>
-        <a href="#" class="header-links_item">Прайс</a>
-        <a href="#" class="header-links_item">Работы</a>
-        <a href="#" class="header-links_item">Контакты</a>
+        <a href="#services" class="header-links_item">Наши услуги</a>
+        <a href="#pricelist" class="header-links_item">Прайс</a>
+        <a href="#ourWork" class="header-links_item">Работы</a>
+        <a href="#contacts" class="header-links_item">Контакты</a>
       </div>
 
       <div class="header-contacts">
@@ -92,7 +92,7 @@
           <button class="consultation">Получить консультацию</button>
           <div class="spareParts">
             <img src="images/folder.png" alt="Папка" class="folder">
-            <a href="#" class="spareParts-link">Посмотреть каталог запчастей</a>
+            <a href="https://mzk.in.ua/" class="spareParts-link" target="_blank">Посмотреть каталог запчастей</a>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
   </section>
   <section class="service">
     <div class="container">
-      <h2 class="service-title">
+      <h2 class="service-title" id="services">
         Наши услуги
       </h2>
       <div class="service-blocks">
@@ -218,7 +218,7 @@
       </div>
     </div>
   </section>
-  <section class="pricelist">
+  <section class="pricelist" id="pricelist">
     <div class="container">
       <img src="images/price/ottoman_1.png" alt="Пуфик" class="pricelist-image1">
       <img src="images/price/case_1.png" alt="Чемодан" class="pricelist-image2">
@@ -273,7 +273,7 @@
     </div>
   </section>
 
-  <section class="sliders">
+  <section class="sliders" id="ourWork">
     <div class="container">
       <h2 class="sliders-title">Наши выполненные работы</h2>
       <div class="sliders-buttons">
@@ -570,7 +570,7 @@
     </div>
   </section>
 
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="container">
       <h2 class="contacts-title">Контакты</h2>
       <div class="contacts-block">
@@ -580,11 +580,71 @@
             width="970" height="550" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
         </div>
         <div class="contacts-full">
-          dghmydrtynstyn
+          <div class="contacts-full_adress">
+              <img src="images/icons/location.svg" alt="Location icon" class="header-icon contacts-icon"> 
+                <p class="contacts-full_adress--text text-gray">
+                  г.Запорожье<br>ул. Независимой Украины, 47 - А/2<br>Крытый рынок / <span class="bold">киоск № 1004</span>
+                </p>
+          </div>
+          <div class="contacts-full_time">
+            <img src="images/icons/time.svg" alt="Time icon" class="header-icon contacts-icon">
+              <p class="contacts-full_adress--text text-gray">
+                Понедельник - воскресенье<br><span class="bold">с 8.00 - 18.00</span>
+              </p>
+          </div>
+          <div class="contacts-full_mail">
+            <img src="images/icons/mail.svg" alt="Mail icon" class="header-icon contacts-icon">
+              <a href="mailto:kolaska2020@gmail.com" class="contacts-full_adress--text contacts-full_adress--link text-gray bold">
+                kolaska2020@gmail.com
+              </a>
+          </div>
+          <div class="contacts-full_phones">
+            <div class="contacts-full_phones--item">
+            <img src="images/icons/viber.svg" alt="Viber icon" class="header-icon contacts-icon">
+              <a href="tel:+380992560580" class="contacts-full_adress--text contacts-full_adress--link text-gray bold">
+                +38 (099) 256 05 80
+              </a>
+            </div>
+            <div class="contacts-full_phones--item">
+              <img src="images/icons/viber.svg" alt="Viber icon" class="header-icon contacts-icon">
+                <a href="tel:+380731225205" class="contacts-full_adress--text contacts-full_adress--link text-gray bold">
+                  +38 (073) 122 52 05
+                </a>
+            </div>
+            <div class="contacts-full_phones--item">
+              <img src="images/icons/phone-incoming.svg" alt="Viber icon" class="header-icon contacts-icon">
+                <a href="tel:+380968086771" class="contacts-full_adress--text contacts-full_adress--link text-gray bold">
+                  +38 (096) 808 67 71
+                </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- .container-->
+  </section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer-block">
+        <div class="footer-links">
+          <a href="#services" class="footer-links_item">НАШИ УСЛУГИ</a>
+          <a href="#pricelist" class="footer-links_item">ПРАЙС</a>
+          <a href="#ourWork" class="footer-links_item">РАБОТЫ</a>
+          <a href="#contacts" class="footer-links_item">КОНТАКТЫ</a>
+        </div>
+        <div class="footer-contacts">
+          <div class="writeToUs">
+            <a href="mailto:kolaska2020@gmail.com" class="writeToUs-link">Напишите нам</a>
+          </div>
+          <div class="footer-socials">
+            <a href="viber://chat?number=%2B380992560580" class="footer-socials_item">
+              <img src="images/icons/viber-white.svg" alt="Viber link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <script src="js/swiper-bundle.min.js"></script>
