@@ -79,4 +79,5 @@ $(document).ready(function () {
     mySwiper = document.querySelector('.swiper-container').swiper;
 
   });
+  AOS.init();
 });

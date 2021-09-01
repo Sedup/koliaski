@@ -2,15 +2,26 @@
 <html lang="ru">
 
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CRB14GT9YZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CRB14GT9YZ');
+</script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ремонт колясок Запорожье</title>
+  <meta name="description" content="Ремонт колясок, замена колес на детские коляски. Быстро, качественно и по демократическим ценам. Широкий выбор запчастей.">
   <meta property="og:url" content="http://remontkolaski.com">
   <meta property="og:title" content="Ремонт колясок Запорожье">
   <meta property="og:description"
-    content="Ремонт колясок, замена колес на детские коляски. Быстро , качественно и по демократическим ценам. Широкий выбор запчастей.">
+    content="Ремонт колясок, замена колес на детские коляски. Быстро, качественно и по демократическим ценам. Широкий выбор запчастей.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://remontkolaski.com/images/main.png">
   <link rel="canonical" href="http://remontkolaski.com">
   <meta property="fb:app_id" content="257953674358265">
   <meta name="format-detection" content="telephone=no">
@@ -18,6 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -77,7 +89,7 @@
 
   <section class="hero">
     <div class="container hero-block">
-      <div class="hero-description">
+      <div class="hero-description"  data-aos="fade-right" data-aos-duration="2000">
         <h1 class="hero-description_title">
           Ремонт детских колясок и чемоданов<br>
           Запчасти и аксессуары к ним<br>
@@ -96,39 +108,40 @@
           </div>
         </div>
       </div>
-      <img src="images/main.png" alt="Детская коляска" class="hero-image">
+      <img src="images/main.png" alt="Детская коляска" class="hero-image"
+      data-aos="fade-left" data-aos-duration="2000">
     </div>
   </section>
   <section class="advantages">
     <div class="container">
       <div class="advantages-block">
-        <div class="advantages-item">
+        <div class="advantages-item" data-aos="fade-right" data-aos-duration="2000">
           <img src="images/icons/individual.svg" alt="Индивидуальный подход" class="advantages-item_icon">
           <div class="advantages-item_text">Индивидуальный подход</div>
         </div>
-        <div class="advantages-item">
+        <div class="advantages-item" data-aos="fade-up" data-aos-duration="2000">
           <img src="images/icons/assortiment.svg" alt="Индивидуальный подход" class="advantages-item_icon">
           <div class="advantages-item_text">Ассортимент тканей</div>
         </div>
-        <div class="advantages-item">
+        <div class="advantages-item" data-aos="fade-up" data-aos-duration="2000">
           <img src="images/icons/spare-parts.svg" alt="Индивидуальный подход" class="advantages-item_icon">
           <div class="advantages-item_text">Запчасти в наличии и под заказ</div>
         </div>
-        <div class="advantages-item">
+        <div class="advantages-item" data-aos="fade-left" data-aos-duration="2000">
           <img src="images/icons/auto.svg" alt="Индивидуальный подход" class="advantages-item_icon">
           <div class="advantages-item_text">Работаем по всей Украине</div>
         </div>
       </div>
     </div>
   </section>
-  <section class="service">
+  <section class="service" id="services">
     <div class="container">
-      <h2 class="service-title" id="services">
+      <h2 class="service-title" data-aos="flip-up" data-aos-duration="2000">
         Наши услуги
       </h2>
       <div class="service-blocks">
         <div class="service-block_1">
-          <div class="service-block service-block_1-1">
+          <div class="service-block service-block_1-1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
             <h3 class="service-block_title">Ремонт колясок</h3>
             <ul class="service-block_list">
               <li class="service-block_list--item">Замена механизмов складывания, камер и покрышек</li>
@@ -141,7 +154,7 @@
             <img src="images/services/koliaska1.png" alt="Детская коляска" class="service-block_image">
           </div>
           <div class="service-block_1-2">
-            <div class="service-block service-block_1-2-1">
+            <div class="service-block service-block_1-2-1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
               <h3 class="service-block_title">Ремонт дорожных чемоданов</h3>
               <p class="service-block_text">Производим замену :</p>
               <ul class="service-block_list">
@@ -153,7 +166,7 @@
               </ul>
               <img src="images/services/case.png" alt="Чемодан" class="service-block_image">
             </div>
-            <div class="service-block service-block_1-2-2">
+            <div class="service-block service-block_1-2-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
               <h3 class="service-block_title">Пластиковые запчасти</h3>
               <p class="service-block_text">Изготавливаем пластиковые запчасти любой сложности.</p>
               <p class="service-block_caption">Под заказ индивидуально</p>
@@ -164,7 +177,7 @@
 
         </div>
         <div class="service-block_2">
-          <div class="service-block service-block_2-1">
+          <div class="service-block service-block_2-1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
             <img src="images/services/pillow.png" alt="Подушка" class="service-block_image">
             <h3 class="service-block_title">Перешив колясок</h3>
             <ul class="service-block_list">
@@ -179,7 +192,7 @@
             <p class="service-block_caption">Выбор ткани<br>в ассотрименте</p>
           </div>
           <div class="service-block_2-2">
-            <div class="service-block_2-2-1">
+            <div class="service-block_2-2-1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
               <div class="service-block service-block_2-2-1-1">
                 <img src="images/services/chair.png" alt="Детский стульчик" class="service-block_image">
                 <h3 class="service-block_title">Чехлы на стульчики</h3>
@@ -192,7 +205,7 @@
                   экокожей.
                 </p>
               </div>
-              <div class="service-block service-block_2-2-1-2">
+              <div class="service-block service-block_2-2-1-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                 <img src="images/services/ottoman.png" alt="Пуфик" class="service-block_image">
                 <h3 class="service-block_title">Бескаркасная мебель</h3>
                 <p class="service-block_text">Изготавливаем:</p>
@@ -206,7 +219,7 @@
                   жакарды.</p>
               </div>
             </div>
-            <div class="service-block_2-2-2">
+            <div class="service-block_2-2-2" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
               <div class="link-block">
                 <img src="images/services/wheel.png" alt="Колесо" class="link-block_image">
                 <span class="link-block_question">Вам нужны запчасти?</span>
@@ -218,7 +231,8 @@
       </div>
     </div>
   </section>
-  <section class="pricelist" id="pricelist">
+
+  <section class="pricelist" id="pricelist" data-aos="zoom-in" data-aos-duration="1500">
     <div class="container">
       <img src="images/price/ottoman_1.png" alt="Пуфик" class="pricelist-image1">
       <img src="images/price/case_1.png" alt="Чемодан" class="pricelist-image2">
@@ -466,9 +480,9 @@
             <div class="swiper-slide">
               <img src="images/slider/sewing/38.jpg" alt="Пошив" class="slider-image">
             </div>
-            <!-- <div class="swiper-slide">
-              <img src="images/slider/sewing/39.jpg" alt="Пошив" class="slider-image">
-            </div> -->
+            <div class="swiper-slide">
+              <img src="images/slider/sewing/39.png" alt="Пошив" class="slider-image">
+            </div> 
             <div class="swiper-slide">
               <img src="images/slider/sewing/40.jpg" alt="Пошив" class="slider-image">
             </div>
@@ -579,7 +593,7 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.6839709292038!2d35.127188829259914!3d47.848541898705754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDUwJzU0LjgiTiAzNcKwMDcnMzkuOSJF!5e1!3m2!1sru!2sua!4v1630253176295!5m2!1sru!2sua"
             width="970" height="550" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
         </div>
-        <div class="contacts-full">
+        <div class="contacts-full" data-aos="zoom-out-up">
           <div class="contacts-full_adress">
               <img src="images/icons/location.svg" alt="Location icon" class="header-icon contacts-icon"> 
                 <p class="contacts-full_adress--text text-gray">
@@ -647,10 +661,11 @@
     </div>
   </section>
 
+  
   <script src="js/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+    <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
 </body>
 
