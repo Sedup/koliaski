@@ -126,6 +126,11 @@ html {
   display: flex;
 }
 
+.hero-image {
+  width: 573px;
+  height: 542px;
+}
+
 .consultation {
   padding: 28px 35px;
   margin-right: 40px;
@@ -156,7 +161,7 @@ html {
 
 .spareParts-link {
   font-weight: 900;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 19px;
   text-decoration-line: underline;
   color: #F0370E;
