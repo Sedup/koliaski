@@ -632,6 +632,38 @@ html {
     width: 509px;
     height: 481px;
   }
+  .advantages-item {
+    padding-right: 27px;
+  }
+  .advantages-item_text {
+    font-size: 16px;
+  }
+  .advantages-item_icon {
+    width: 62px;
+    height: 59px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .advantages-item {
+    padding-left: 20px;
+  }
+  .advantages-item_text {
+    font-size: 14px;
+  }
+  .advantages-item_icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 932px) {
+  .advantages-item {
+    padding-top: 20px;
+  }
+  _text {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 1355px) {
@@ -645,6 +677,9 @@ html {
 }
 
 @media (max-width: 1190px) {
+  .header {
+    margin-top: 10px;
+  }
   .header-links {
     min-width: 329px;
   }
@@ -710,6 +745,10 @@ html {
   }
   .hero-block {
     align-items: center;
+  }
+  .advantages-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -804,6 +843,21 @@ html {
     max-width: 100%;
     margin-bottom: 15px;
   }
+  .hero-description_buttons {
+    flex-direction: column;
+  }
+  .consultation {
+    font-size: 14px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+  .spareParts-link {
+    font-size: 14px;
+  }
+  .folder {
+    width: 44px;
+    height: 44px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -831,16 +885,6 @@ html {
   .hero-image {
     width: 300px;
     height: 282px;
-  }
-  .consultation {
-    font-size: 11px;
-  }
-  .spareParts-link {
-    font-size: 11px;
-  }
-  .folder {
-    width: 44px;
-    height: 44px;
   }
 }
 
