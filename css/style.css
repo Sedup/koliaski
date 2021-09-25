@@ -738,6 +738,15 @@ html {
   }
 }
 
+@media (max-width: 983px) {
+  .advantages-item {
+    padding-left: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    max-width: 210px;
+  }
+}
+
 @media (max-width: 880px) {
   .hero-image {
     width: 318px;
@@ -745,10 +754,6 @@ html {
   }
   .hero-block {
     align-items: center;
-  }
-  .advantages-item {
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 }
 
